@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type">
+        <item>DC차데모</item>
+        <item>DC차데모+AC상</item>
+        <item>DC차데모+AC상+DC콤보</item>
+    </string-array>
+
+</resources>

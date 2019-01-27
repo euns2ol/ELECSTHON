@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent" >
+
+    <FrameLayout
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_goToList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="리스트페이지로 이동"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/temp_pos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(x,y)"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal|bottom"/>
+
+
+</LinearLayout>
